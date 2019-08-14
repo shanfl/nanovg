@@ -23,7 +23,9 @@
 #ifdef __APPLE__
 #	define GLFW_INCLUDE_GLCOREARB
 #endif
-#define GLFW_INCLUDE_GLEXT
+#ifndef NANOVG_GLEW
+#	define GLFW_INCLUDE_GLEXT
+#endif
 #include <GLFW/glfw3.h>
 #include "nanovg.h"
 #define NANOVG_GL3_IMPLEMENTATION

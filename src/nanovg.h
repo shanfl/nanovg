@@ -54,13 +54,13 @@ struct NVGpaint {
 typedef struct NVGpaint NVGpaint;
 
 enum NVGwinding {
-	NVG_CCW = 1,			// Winding for solid shapes
-	NVG_CW = 2,				// Winding for holes
+	NVG_CCW = 1,			// Winding for solid shapes ƒÊ ±’Î
+	NVG_CW = 2,				// Winding for holes À≥ ±’Î
 };
 
 enum NVGsolidity {
-	NVG_SOLID = 1,			// CCW
-	NVG_HOLE = 2,			// CW
+	NVG_SOLID = 1,			// CCW	
+	NVG_HOLE = 2,			// CW	
 };
 
 enum NVGlineCap {

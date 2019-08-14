@@ -98,13 +98,13 @@ typedef struct NVGpoint NVGpoint;
 struct NVGpathCache {
 	NVGpoint* points;
 	int npoints;
-	int cpoints;
+	int cpoints;		// 初始化 = NVG_INIT_POINTS_SIZE 
 	NVGpath* paths;
 	int npaths;
-	int cpaths;
+	int cpaths;			// 初始化 = NVG_INIT_PATHS_SIZE
 	NVGvertex* verts;
 	int nverts;
-	int cverts;
+	int cverts;			// 初始化 = NVG_INIT_VERTS_SIZE
 	float bounds[4];
 };
 typedef struct NVGpathCache NVGpathCache;

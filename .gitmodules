@@ -1,0 +1,6 @@
+[submodule "3rd/glfw3"]
+	path = 3rd/glfw3
+	url = https://github.com/glfw/glfw.git
+[submodule "3rd/glew"]
+	path = 3rd/glew
+	url = https://github.com/Perlmint/glew-cmake.git
